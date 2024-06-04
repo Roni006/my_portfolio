@@ -1,0 +1,8 @@
+@media (max-width: 950px){
+    .nav-menu li {
+        display: none;
+    }
+    .btn{
+        display: block;
+    }
+}
