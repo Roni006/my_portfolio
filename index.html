@@ -8,6 +8,7 @@
     <!-- FONTS AWESOME CDN LINKS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <!-- CSS LINKS -->
+    <link rel="icon" href="assets/img/1.png">
     <link rel="stylesheet" href="assets/css/sytle.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
     <title>Portfolio</title>
@@ -33,7 +34,16 @@
                                     <li><a href="#">Blog</a></li>
                                 </ul>
                             </nav>
-                            <a href="#" class="btn"><i class="fa-solid fa-bars"></i></a>
+                            <nav>
+                                <ul class="sidebar">
+                                    <a href="#" onclick="hideMenu()" class="btn close"><i class="fa-solid fa-xmark"></i></a>
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">About Me</a></li>
+                                    <li><a href="#">Services</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                </ul>
+                            </nav>
+                            <a href="#" onclick="showMenu()" class="btn"><i class="fa-solid fa-bars"></i></a>
                         </div>
                     </div>
                 </div>
@@ -43,7 +53,29 @@
 
 
 
+     <!--HERO SECTION START -->
+        <div class="hero-section">
+            <div class="container">
+                <div class="hero-row">
+                    <div class="hero-left">
+                        <h2>Hi, I am</h2>
+                        <h1>Anik Islam</h1>
+                        <p>Frontend Developer</p>
+                    </div>
+                    <div class="hero-right">
+                        <div class="img">
+                            <img src="assets/img/hero-img.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     <!--HERO SECTION END -->
+
+
      <!-- SECTION START -->
      <!-- SECTION END -->
+
+     <script src="assets/js/script.js"></script>
 </body>
 </html>
