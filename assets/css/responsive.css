@@ -16,7 +16,7 @@
 @media (max-width: 1045px){
     .hero-row{
         flex-wrap: wrap !important;
-        display: flex !important;
+        
     }
 }
 @media (max-width: 992px){
@@ -24,4 +24,37 @@
         width: 350px;
         height: 350px;
     }
+    .about-content p{
+        text-align: justify;
+    }
+    .about-content h3{
+        font-size: 35px;
+    }
+    .about-content hr{
+        width: 140px;
+    }
+    .service-section h1{
+        font-size: 35px;
+    }
+    .service-section .service-content h2{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 575px){
+    .service-section .service-content .icon{
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 475px){
+    .about-content p{
+        padding: 0 30px;
+        /* margin-right: 50px; */
+        margin: 0 auto;
+    }
+    .about-section .skill-section {
+        gap: 20px !important;
+    }
+
 }
