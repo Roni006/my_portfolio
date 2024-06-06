@@ -1,17 +1,20 @@
-@media (max-width: 950px){
-    .nav-menu li {
-        display: none;
-    }
-    .btn{
-        display: block;
+@media (max-width: 1235px){
+    .service-1{
+        text-align: center;
     }
 }
+
+
 
 @media (max-width: 1050px){
     .hero-left h1{
         font-size: 55px;
     }
 }
+
+
+
+
 
 @media (max-width: 1045px){
     .hero-row{
@@ -36,8 +39,55 @@
     .service-section h1{
         font-size: 35px;
     }
+    .service-section .s-border{
+        width: 180px;
+    }
     .service-section .service-content h2{
         font-size: 25px;
+    }
+    .blogs-title h1{
+        font-size: 35px;
+    }
+    .blogs-title .blogs{
+        width: 180px;
+    }
+    .contact-section .contact-title h4{
+        font-size: 35px;
+    }
+    .contact-title .contact{
+        width: 250px;
+    }
+    .contact-left .color{
+        font-size: 40px;
+    }
+    .about-section .skills h3 {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 950px){
+    .nav-menu li {
+        display: none;
+    }
+    .btn{
+        display: block;
+    }
+}
+
+
+@media (max-width: 850px){
+    .contact-left .our-block img{
+        width: 350px;
+    }
+    .contact-right {
+        padding: 30px 40px 30px 40px; 
+    }
+    
+}
+
+@media (max-width: 582px){
+    .contact-right{
+        padding: 30px 20px;
     }
 }
 
@@ -52,9 +102,57 @@
         padding: 0 30px;
         /* margin-right: 50px; */
         margin: 0 auto;
+        }
+        .about-section .skill-section {
+            gap: 20px !important;
     }
-    .about-section .skill-section {
-        gap: 20px !important;
+    .blog1{
+        width: 380px;
+        padding: 20px 20px;
+    }
+            
+}
+            
+@media (max-width: 465px){
+    .contact-right{
+        padding: 20px 35px 20px 35px;
+    }
+    input,
+    textarea,
+    label{
+        width: 100%;
+        padding-top: 8px;
+        padding-right: 220px;
+    }
+    .sub-btn{
+        padding: 8px 15px;
+        font-size: 16px;
+    }
+    .contact-right label{
+        /* margin-left: -45px; */
+        }
+       
+   
+}
+
+@media (max-width: 375px){
+    .blog1 img{
+        width: 250px;
+        height: 150px;
+    }
+    .blog1{
+        width: 300px;
+        padding: 20px 20px;
+    }
+    .blog1 .blog-title h2{
+        font-size: 20px;
+    }
+    .blog1 .blog-desc p{
+        padding: 0;
+        text-align: justify;
+    }
+    .service-section .service-content{
+        width: 300px;
     }
 
 }

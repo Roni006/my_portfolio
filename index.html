@@ -16,7 +16,7 @@
 <body>
 
     <!-- HEADER SECTION START -->
-        <header class="header-section">
+        <header class="header-section" >
             <div class="container">
                 <div class="header-row">
                     <div class="header-left">
@@ -28,10 +28,17 @@
                         <div class="header-content">
                             <nav>
                                 <ul class="nav-menu">
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="#">About Me</a></li>
-                                    <li><a href="#">Services</a></li>
-                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="#about">About Me</a></li>
+                                    <li><a href="#service">Services</a>
+                                        <ul class="submenu">
+                                            <li><a href="#dedign">Web Design</a></li>
+                                            <li><a href="#development">Web Development</a></li>
+                                            <li><a href="#wordpress">WordPress Development</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="blog">Blog</a></li>
+                                    <li><a href="#contact">Contact</a></li>
                                 </ul>
                             </nav>
                             <nav>
@@ -39,7 +46,8 @@
                                     <a href="#" onclick="hideMenu()" class="btn close"><i class="fa-solid fa-xmark"></i></a>
                                     <li><a href="#">Home</a></li>
                                     <li><a href="#">About Me</a></li>
-                                    <li><a href="#">Services</a></li>
+                                    <li><a href="#">Services</a>
+                                    </li>
                                     <li><a href="#">Blog</a></li>
                                 </ul>
                             </nav>
@@ -54,7 +62,7 @@
 
 
      <!--HERO SECTION START -->
-        <div class="hero-section">
+        <div class="hero-section" id="hero">
             <div class="container">
                 <div class="hero-row">
                     <div class="hero-left">
@@ -80,12 +88,12 @@
 
 
      <!--ABOUT  SECTION START -->
-     <section class="about-section">
+     <section class="about-section" id="about">
         <div class="container">
             <div class="about-content">
                 <h3>About</h3>
                 <hr>
-                <p>Hey, welcome to my profile, I am Anik. An expert responsive front-end website designer and developer. I have been doing this work for quite some time and I will provide you with great services simply and innovatively. Customer satisfaction is my priority. If you have any questions feel free to ask me. Thank You.</p>
+                <p>Hey, welcome to my profile, I am Anik. An expert Front-end Website Designer and Developer. I have been doing this work for quite some time and I will provide you with great services simply and innovatively. Customer satisfaction is my priority. If you have any questions feel free to ask me. Thank You.</p>
             </div>
             <div class="skills">
                 <h3>My SKills</h3>
@@ -130,7 +138,7 @@
      <!--ABOUT  SECTION END -->
      
      <!--SERVICE SECTION START -->
-        <section class="service-section">
+        <section class="service-section" id="service">
             <div class="container">
                 <h1>Services</h1>
                 <hr class="s-border">
@@ -173,8 +181,102 @@
      <!--SERVICE SECTION END -->
 
 
-     <!-- SECTION START -->
-     <!-- SECTION END -->
+     <!--BLOG SECTION START -->
+        <section class="blog-section" id="blog">
+            <div class="container">
+                <div class="blogs-title">
+                    <h1>My Blogs</h1>
+                    <hr class="blogs">
+                </div>
+                <div class="blogs-content">
+                    <div class="blog1" id="design">
+                        <div class="img">
+                            <img src="assets/img/card-img/card-3.jpg" alt="">
+                        </div>
+                        <div class="blog-title">
+                            <h2>Responsive Website Design</h2>
+                        </div>
+                        <div class="blog-desc">
+                            <p>Responsive Website Design service is available. We have an talented front-end developer. Our responsive design will be Google verified.</p>
+                        </div>
+                        <div class="read-more">
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                    <div class="blog1" id="development">
+                        <div class="img">
+                            <img src="assets/img/card-img/card-1.jpg" alt="">
+                        </div>
+                        <div class="blog-title">
+                            <h2>Web Development</h2>
+                        </div>
+                        <div class="blog-desc">
+                            <p>Responsive Website Design service is available. We have an talented front-end developer. Our responsive design will be Google verified.</p>
+                        </div>
+                        <div class="read-more">
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                    <div class="blog1" id="wordpress">
+                        <div class="img">
+                            <img src="assets/img/card-img/card-2.jpg" alt="">
+                        </div>
+                        <div class="blog-title">
+                            <h2>WordPress Development</h2>
+                        </div>
+                        <div class="blog-desc">
+                            <p>Responsive Website Design service is available. We have an talented front-end developer. Our responsive design will be Google verified.</p>
+                        </div>
+                        <div class="read-more">
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+     <!--BLOG SECTION END -->
+
+     <!--CONTACT SECTION START -->
+        <section class="contact-section" id="contact">
+            <div class="container">
+                <div class="contact-title">
+                    <h4 class="top">Get In Touch</h4>
+                    <hr class="contact">
+                </div>
+                <div class="contact-row">
+                    <div class="contact-left">
+                        <div class="service-1">
+                            <span class="color">Le's Talk</span>
+                            <p class="para">If you have any questions <br> feel free to ask me. Thank You.</p>
+                        </div>
+                        <div class="our-block">
+                            <img src="assets/img/contacts.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="contact-right">
+                        <form action="#">
+                            <p><label for="text">Name</label></p>
+                            <input type="text" name="" id="" placeholder="Your Name" required>
+    
+                            <p><label for="text">E-mail</label></p>
+                            <input type="text" name="" id="" placeholder="Your E-mail" required>
+    
+                            <p><label for="text">Message</label></p>
+                            <!-- <input type="text" name="" id="" placeholder="Name"> -->
+                            <textarea name="" id="" cols="30" rows="5" placeholder="Your Message"></textarea>
+                        </form>
+                        <button type="submit" class="sub-btn">Connect With Me</button>
+                    </form>
+                    </div>
+                </div>
+        </div>
+        </section>
+        <!--CONTACT SECTION END -->
+
+
+        <!-- FOOTER SECTION START -->
+
+        <!-- FOOTER SECTION END -->
 
      <script src="assets/js/script.js"></script>
 </body>
