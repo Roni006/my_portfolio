@@ -5,7 +5,6 @@
 }
 
 
-
 @media (max-width: 1050px){
     .hero-left h1{
         font-size: 55px;
@@ -13,15 +12,28 @@
 }
 
 
-
-
-
 @media (max-width: 1045px){
-    .hero-row{
-        flex-wrap: wrap !important;
-        
+    .hero-row{ 
+        align-items: center;
+        justify-content: center; 
+    }
+    .hero-left {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .hero-left .btns{
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 1003px){
+    .contact-right{
+        margin-top: 0px;
     }
 }
+
 @media (max-width: 992px){
     .hero-right img {
         width: 350px;
@@ -63,6 +75,14 @@
     .about-section .skills h3 {
         font-size: 35px;
     }
+    .hero-row{
+            display: flex;
+            padding: 40px 50px 45px 50px;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+    
+    }
 }
 
 @media (max-width: 950px){
@@ -85,6 +105,12 @@
     
 }
 
+/* @media (max-width: 844px){
+    .contact-right{
+        margin-top: 0px;
+    }
+} */
+
 @media (max-width: 582px){
     .contact-right{
         padding: 30px 20px;
@@ -94,6 +120,23 @@
 @media (max-width: 575px){
     .service-section .service-content .icon{
         font-size: 40px;
+    }
+}
+
+@media (max-width: 500px){
+    .myImage{
+        height: 100% !important;
+        width: 100%;
+    }
+    .hero-right .img{
+        width: 300px;
+        height: 300px;
+    }
+    .hero-left h2{
+        font-size: 35px;
+    }
+    .hero-left h1{
+        font-size: 45px;
     }
 }
 
@@ -112,7 +155,15 @@
     }
             
 }
-            
+     
+@media (max-width: 450px){
+    .hero-left .btns .bg{
+        padding: 10px 18px;
+    }
+    .hero-left .btns .trans{
+        padding: 10px 18px;
+    }
+}
 @media (max-width: 465px){
     .contact-right{
         padding: 20px 35px 20px 35px;
@@ -128,14 +179,11 @@
         padding: 8px 15px;
         font-size: 16px;
     }
-    .contact-right label{
-        /* margin-left: -45px; */
-        }
        
    
 }
 
-@media (max-width: 375px){
+@media (max-width: 376px){
     .blog1 img{
         width: 250px;
         height: 150px;
@@ -153,6 +201,14 @@
     }
     .service-section .service-content{
         width: 300px;
+    }
+    .hero-left .btns .bg{
+        padding: 10px 18px;
+        font-size: 15px;
+    }
+    .hero-left .btns .trans{
+        padding: 10px 18px;
+        font-size: 15px;
     }
 
 }

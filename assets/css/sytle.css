@@ -189,7 +189,7 @@ nav ul li:hover ul{
     
 }
 .hero-right{
-    width: 50%;
+   max-width: 550px;
 }
 .hero-right img{
     width: 450px;
@@ -416,13 +416,15 @@ nav ul li:hover ul{
 }
 
 .contact-left .our-block img{
-    width: 500px;
+    width: 450px;
     margin-top: 15px;
 }
 .contact-right{
+    margin-top: 125px;
     background-color: #27ae5f87;
     padding: 40px 70px 40px 70px;
     border-radius: 8px;
+    align-self: center;
     /* width: 600px; */
 }
 .contact-right label{
@@ -435,23 +437,28 @@ nav ul li:hover ul{
     color: black;
     
 }
-input{
+input,
+textarea{
     width: 100%;
     border: none;
     border-radius: 4px;
-    padding: 12px 260px 12px 20px;
+    padding: 12px 16px 12px 12px;
     margin-bottom: 20px;
+    outline: none;
+    font-size: 16px;
 }
+
 textarea{
     border-radius: 4px;
-    padding: 16px 240px 126px 20px;
+    /* padding: 16px 240px 126px 20px; */
+    width: 100%;
 }
 .sub-btn{
     background: transparent;
     border: 1px solid #fff;
-    padding: 25px 30px 25px 30px;
+    padding: 15px 20px 15px 20px;
     border-radius: 5px;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 500;
     margin-top: 20px;
     transition: all 0.2s;
