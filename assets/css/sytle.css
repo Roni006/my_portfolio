@@ -17,10 +17,16 @@ img{
 body{
     background-color: #171717;
     font-family: "Poppins", sans-serif;
-    margin-bottom: 400px;
 }
 
 /* <!--HEADER SECTION START --> */
+.header-section{
+    top: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    background-color: #171717;
+}
 .header-row{
     display: flex;
     align-items: center;
@@ -93,6 +99,7 @@ nav ul li:hover ul{
     box-shadow: -1px 3px 13px 2px rgba(255,255,255,0.15);
     font-size: 22px;
     display: none;
+    border-radius: 4px;
 
 }
 .btn:hover{
@@ -126,6 +133,7 @@ nav ul li:hover ul{
 }
 .close{
     margin-bottom: 30px;
+    border-radius: 4px;
 }
 /* <!--HEADER SECTION END --> */
 
@@ -377,7 +385,9 @@ nav ul li:hover ul{
     background-color: #27AE60;
 }
 /* BLOG SECTION END */
-/* FOOTER SECTION START  */
+
+
+/* CONTACT SECTION START  */
 .contact-section{
     padding: 90px 0;
     position: relative;
@@ -471,9 +481,32 @@ textarea{
     margin-bottom: 45px;
 }
 
-/* FOOTER SECTION END */
-
+/* CONTACT SECTION END */
 
 
 /* FOOTER SECTION START */
+.footer-section{
+    padding-top: 60px;
+    margin-bottom: 20px;
+}
+.footer-content {
+    background-color: #212121;
+    
+} 
+.footer-content .footer-menu{ 
+    display: flex;
+    padding: 18px 55px;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-content ul li a{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.2s;
+    padding: 0 8px;
+}
+.footer-content ul li a:hover{
+    color: #27AE60;
+}
 /* FOOTER SECTION END */
